@@ -1,0 +1,331 @@
+.group32-group32 {
+  width: 1542px;
+  height: 776px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group32-image12 {
+  top: 0px;
+  left: 0px;
+  width: 1542px;
+  height: 773px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-rectangle124 {
+  top: 0px;
+  left: -1px;
+  width: 1442px;
+  height: 772px;
+  position: absolute;
+}
+.group32-text {
+  top: 46px;
+  left: 412px;
+  color: rgba(255, 255, 255, 1);
+  width: 728px;
+  height: auto;
+  position: absolute;
+  font-size: 58px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group32-rectangle196 {
+  top: 599px;
+  left: 0px;
+  width: 1448px;
+  height: 110px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-ellipse61 {
+  top: 619px;
+  left: 161.1669921875px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-ellipse64 {
+  top: 619px;
+  left: 635.81640625px;
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-ellipse65 {
+  top: 619px;
+  left: 1017.320313px;
+  width: 75px;
+  height: 63px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-text02 {
+  top: 645px;
+  left: 270.31640625px;
+  color: rgba(0, 0, 0, 1);
+  width: 258px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group32-text04 {
+  top: 645px;
+  left: 730.947265625px;
+  color: rgba(0, 0, 0, 1);
+  width: 212px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group32-text06 {
+  top: 628px;
+  left: 1109.46484375px;
+  color: rgba(0, 0, 0, 1);
+  width: 317px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group32-line46 {
+  top: 682px;
+  left: 559.712890625px;
+  width: 79px;
+  height: 0px;
+  position: absolute;
+}
+.group32-line47 {
+  top: 682px;
+  left: 969.2734375px;
+  width: 79px;
+  height: 0px;
+  position: absolute;
+}
+.group32-dumbbell-fitness-gym-club-logo1 {
+  top: 22px;
+  left: 1145px;
+  width: 123px;
+  height: 120px;
+  position: absolute;
+  border-color: transparent;
+}
+.group32-image33 {
+  top: 198px;
+  left: 669px;
+  width: 708px;
+  height: 338px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 27px;
+}
+.group32-rectangle288 {
+  top: 158px;
+  left: 161px;
+  width: 421px;
+  height: 346px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 47px;
+}
+
+
+.btn {
+  position: relative;
+  left: 101px;
+  top: 46px;
+  font-size: large;
+  font-style: bold;
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.para{
+  position: relative;
+  padding-left: -20px;
+  left: 70px;
+  top: 36px;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("");
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.btn2 {
+  position: fixed ;
+  right: 50px;
+  bottom: 50px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 4.5%;
+  height: 10%;
+  opacity: 1;
+  z-index: 10;
+}
+
+.btn2:hover {
+  opacity: 4;
+}
+
+
+.btn3 {
+  position: relative;
+  left: 212px;
+    top: 58px;
+  font-size: larger;
+  font-style: lighten;
+  background-color: #04AA6D;
+  color: white;
+  padding: 4px 4px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.btn3:hover {
+  opacity: 1;
+}
+
+/* Add styles to the form container */
+.container {
+  position: relative;
+  top: 45px;
+  right: -25px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 60%;
+  padding: 15px;
+  margin: 48px 15px -28px 78px;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.popup  {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.Email {
+  background: url(email.png)no-repeat 100%;
+  background-size: 16px;
+}
+.Name {
+  background: url(name.png)no-repeat 100%;
+  background-size: 16px;
+}
+.PhoneNumber {
+  background: url(phone.png)no-repeat 100%;
+  background-size: 16px;
+}
+
+.btn4
+{
+  position: relative;
+  left: -135px;
+  top: 91px;
+  font-size: small;
+  font-style: lighten;
+  background-color: #04AA6D;
+  color: white;
+  padding: 4px 4px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+
+}

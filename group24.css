@@ -1,0 +1,103 @@
+.group24-group24 {
+  width: 1440px;
+  height: 40px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.group24-component4 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.group24-rectangle164 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+}
+.group24-text {
+  top: 7px;
+  left: 1100px;
+  color: rgba(255, 255, 255, 1);
+  width: 136px;
+  height: auto;
+  position: absolute;
+  font-size: 21px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.group24-text2 {
+  top: 10px;
+  left: 33px;
+  color: rgba(255, 255, 255, 1);
+  width: 495px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.group24-mdiinstagram {
+  top: 5px;
+  left: 1400px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.group24-mditwitter {
+  top: 4px;
+  left: 1350px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+}
+.group24-mdilinkedin {
+  top: 2px;
+  left: 1300px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.group24-line49 {
+  top: 6px;
+  left: 1278px;
+  width: 27px;
+  height: 0px;
+  position: absolute;
+}

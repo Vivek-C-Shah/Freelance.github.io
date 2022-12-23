@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+$all: all .5s ease;
+$sai: 'Saira Semi Condensed', sans-serif;
+
+*{
+    @include tf($tf-fm: $sai);
+    @include other($ot-tsi: $all)
+}
+
+body{
+    background: #dfdfdf
+}
+
+.container{
+    @include bm(100%, 100%, $bm-pd: 0 16px, $bm-dp: $fl);
+    @include flex-center($rnw)
+}
+
+form{
+    @include bm(400px, $bm-dp: $fl);
+    @include flex-center($cw);
+        div, label, input, textarea{
+            @include bm(100%)
+        }
+}
+
+.field:nth-of-type(2){
+    @include bm($bm-mg: 16px 0)
+}
+
+label, input, textarea{
+    @include bm($bm-pd: 8px)
+}
+
+label, [placeholder]{
+    @include tf(#555)
+}
+
+label i{
+    @include bm($bm-mg: 0 10px 0 0)
+}
+
+.field:focus-within label{
+    @include tf(#000, $tf-ls: 2px)
+}
+
+input, textarea{
+    background: rgba(255,255,255,.5);
+    border: none;
+    @include other($ot-br: 4px, $ot-bs: $o-b);
+        &:focus{
+            background: rgba(255,255,255,1);
+            @include other($ot-bs: none)
+        }
+}
+
+textarea{
+    resize: none;
+        &::-webkit-scrollbar{
+            @include bm(0)
+        }
+}
+
+button{
+    background: #2f4ad0;
+    @include bm($bm-pd: 8px 16px, $bm-mg: 16px 0 50px 0);
+    @include tf(#fff);
+    border: none;
+    @include other($ot-br: 4px, $ot-cr: pointer, $ot-bs: $o-b);
+        &:hover{
+            @include tf($tf-ls: 2px);
+            @include other($ot-bs: none)
+        }
+}
+
+.social-media{
+    @include bm($bm-dp: $fl);
+    @include fb($rw, $fb-jc: $sa);
+        :not(&){
+            @include tf($tf-fs: 14px)
+        }
+        span{
+            @include tf($tf-fs: 16px)
+        }
+        span .fas{
+            @include bm($bm-mg: 0 0 0 10px)
+        }
+        a{
+            @include tf(#000, $tf-fs: 20px)
+        }
+}
+
+@media (max-width: 425px){
+    form{
+        @include bm(100%)
+    }
+}
